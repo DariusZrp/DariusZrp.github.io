@@ -1,0 +1,33 @@
+.image-ferrari{
+    display:flex;
+    justify-content: center;
+}
+
+.Pilotes{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.fond{
+    background-image: url('imagef1/fondleclerc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.overlay > p{
+    color: white!important;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display :flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
